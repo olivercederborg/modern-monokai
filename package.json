@@ -2,7 +2,7 @@
 	"name": "modern-monokai",
 	"displayName": "Modern Monokai",
 	"description": "Modern monokai theme",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "OliverCederborg",
 	"engines": {
 		"vscode": "^1.62.0"
