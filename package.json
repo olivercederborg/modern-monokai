@@ -1,21 +1,35 @@
 {
-    "name": "modern-monokai",
-    "displayName": "Modern Monokai",
-    "description": "Modern monokai theme",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.62.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Modern Monokai",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Modern Monokai-color-theme.json"
-            }
-        ]
-    }
+	"name": "modern-monokai",
+	"displayName": "Modern Monokai",
+	"description": "Modern monokai theme",
+	"version": "0.0.1",
+	"publisher": "OliverCederborg",
+	"engines": {
+		"vscode": "^1.62.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/olivercederborg/modern-monokai"
+	},
+	"keywords": [
+		"theme",
+		"dark",
+		"monokai",
+		"modern",
+		"simple",
+		"vibrant",
+		"oliver cederborg"
+	],
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Modern Monokai",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Modern Monokai-color-theme.json"
+			}
+		]
+	}
 }
