@@ -1,12 +1,13 @@
 {
 	"name": "modern-monokai",
 	"displayName": "Modern Monokai",
-	"description": "Modern monokai theme",
-	"version": "0.0.2",
+	"description": "A more modern approach to the original monokai theme.",
+	"version": "0.0.4",
 	"publisher": "OliverCederborg",
 	"engines": {
 		"vscode": "^1.62.0"
 	},
+	"icon": "assets/theme_icon.png",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/olivercederborg/modern-monokai"
