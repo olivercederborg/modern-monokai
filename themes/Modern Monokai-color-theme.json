@@ -132,18 +132,6 @@
 				"punctuation.section.embedded.begin.erb",
 				"punctuation.section.embedded.end.erb",
 				"meta.object-literal.key.js.jsx",
-				"variable.language.this.js.jsx",
-				"meta.import.js string",
-				"meta.import.js variable",
-				"meta.import.js meta.block variable.other",
-				"meta.import.tsx",
-				"meta.import.tsx string",
-				"meta.import.tsx variable",
-				"meta.import.tsx meta.block variable.other",
-				"meta.import.ts",
-				"meta.import.ts string",
-				"meta.import.ts variable",
-				"meta.import.ts meta.block variable.other",
 				"punctuation.definition.template-expression.begin",
 				"punctuation.definition.template-expression.end"
 			],
@@ -167,7 +155,16 @@
 				"markup.inline.raw.string.markdown",
 				"entity.other.attribute-name.class.css",
 				"entity.other.inherited-class.ruby",
-				"keyword.control.pseudo-method.ruby"
+				"keyword.control.pseudo-method.ruby",
+				"meta.import.js variable",
+				"meta.import.tsx variable",
+				"meta.import.ts variable",
+				"meta.import.ts meta.block variable.other",
+				"meta.import.js meta.block variable.other",
+				"meta.import.tsx",
+				"meta.import.tsx meta.block variable.other",
+				"meta.import.ts",
+				"meta.import.ts variable"
 			],
 			"settings": {
 				"foreground": "#3fd0ec"
@@ -176,20 +173,11 @@
 		{
 			"name": "White",
 			"scope": [
-				"keyword",
+				"keyword.operator.assignment",
+				"keyword.operator.assignment.js",
 				"entity.other.attribute-name",
 				"storage.type",
-				"constant.other.color",
 				"storage.modifier",
-				"constant.language",
-				"support.constant",
-				"constant.character",
-				"constant.escape",
-				"variable.parameter",
-				"keyword.other.unit",
-				"keyword.other",
-				"constant.other.symbol",
-				"constant.other.key",
 				"markup.heading",
 				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
@@ -201,6 +189,37 @@
 			],
 			"settings": {
 				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "Purple",
+			"scope": [
+				"boolean",
+				"constant.numeric",
+				"constant.numeric.float",
+				"constant.numeric.integer",
+				"constant.other.color",
+				"constant.language",
+				"support.constant",
+				"constant.character",
+				"constant.escape",
+				"constant.other.symbol",
+				"constant.other.key"
+			],
+			"settings": {
+				"foreground": "#AF92F9"
+			}
+		},
+		{
+			"name": "Orange",
+			"scope": [
+				"keyword.operator.new",
+				"keyword",
+				"keyword.other.unit",
+				"keyword.other"
+			],
+			"settings": {
+				"foreground": "#F2A23A"
 			}
 		},
 		{
@@ -249,14 +268,17 @@
 				"entity.other.inherited-class",
 				"keyword.other.special-method",
 				"markup.inserted.git_gutter",
-				"variable.language",
 				"source.sass keyword.control",
 				"string.regexp",
 				"source.js constant.other.object.key.js string.unquoted.label.js",
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
 				"entity.other.attribute-name.id",
-				"variable.parameter"
+				"variable.parameter",
+				"meta.import.ts string",
+				"meta.import.js string",
+				"variable.language.this.js.jsx",
+				"variable.language"
 			],
 			"settings": {
 				"foreground": "#b7f055"
@@ -296,31 +318,31 @@
 		},
 
 		{
-			"name": "Markup - Italic",
-			"scope": ["markup.italic"],
+			"name": "Italic",
+			"scope": ["markup.italic", "variable.language"],
 			"settings": {
 				"fontStyle": "italic"
 			}
 		},
-		// {
-		// 	"name": "Bold",
-		// 	"scope": [
-		// 		"markup.bold",
-		// 		"markup.bold string",
-		// 		"entity.name",
-		// 		"entity.other.inherited-class",
-		// 		"entity.other.attribute-name.class.css",
-		// 		"keyword.other.important.css",
-		// 		"keyword.other.important.scss",
-		// 		"support.class.ruby",
-		// 		"meta.import.js variable",
-		// 		"meta.import.js meta.block variable.other",
-		// 		"meta.import.js string"
-		// 	],
-		// 	"settings": {
-		// 		"fontStyle": "bold"
-		// 	}
-		// },
+		{
+			"name": "Bold",
+			"scope": [
+				"markup.bold",
+				"markup.bold string",
+				"entity.name",
+				"entity.other.inherited-class",
+				"entity.other.attribute-name.class.css",
+				"keyword.other.important.css",
+				"keyword.other.important.scss",
+				"support.class.ruby",
+				"meta.import.js variable",
+				"meta.import.js meta.block variable.other",
+				"meta.import.js string"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
 		{
 			"name": "Markup - Bold-Italic",
 			"scope": [
@@ -446,7 +468,7 @@
 				"keyword.control.from.ts"
 			],
 			"settings": {
-				"foreground": "#6e7d9a"
+				"foreground": "#818ca3"
 			}
 		}
 	]
