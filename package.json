@@ -2,7 +2,7 @@
 	"name": "modern-monokai",
 	"displayName": "Modern Monokai",
 	"description": "A more modern approach to the original monokai theme.",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"publisher": "OliverCederborg",
 	"engines": {
 		"vscode": "^1.62.0"
@@ -19,7 +19,8 @@
 		"modern",
 		"simple",
 		"vibrant",
-		"oliver cederborg"
+		"oliver cederborg",
+		"flat"
 	],
 	"categories": [
 		"Themes"
