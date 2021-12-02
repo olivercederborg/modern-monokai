@@ -173,7 +173,8 @@
 				"meta.import.tsx",
 				"meta.import.tsx meta.block variable.other",
 				"meta.import.ts",
-				"meta.import.ts variable"
+				"meta.import.ts variable",
+				"variable.parameter"
 			],
 			"settings": {
 				"foreground": "#3fd0ec"
@@ -283,7 +284,6 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
 				"entity.other.attribute-name.id",
-				"variable.parameter",
 				"meta.import.ts string",
 				"meta.import.js string",
 				"variable.language.this.js.jsx",
