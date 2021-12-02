@@ -226,7 +226,8 @@
 				"keyword.operator.new",
 				"keyword",
 				"keyword.other.unit",
-				"keyword.other"
+				"keyword.other",
+				"keyword.control"
 			],
 			"settings": {
 				"foreground": "#F2A23A"
@@ -240,7 +241,6 @@
 				"entity.name.function",
 				"meta.tag.sgml",
 				"markup.deleted.git_gutter",
-				"keyword.control",
 				"meta.function-call",
 				"variable.function",
 				"support.function",
