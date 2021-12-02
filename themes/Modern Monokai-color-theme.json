@@ -187,7 +187,6 @@
 				"keyword.operator.assignment.js",
 				"entity.other.attribute-name",
 				"storage.type",
-				"storage.modifier",
 				"markup.heading",
 				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
@@ -227,7 +226,8 @@
 				"keyword",
 				"keyword.other.unit",
 				"keyword.other",
-				"keyword.control"
+				"keyword.control",
+				"storage.modifier"
 			],
 			"settings": {
 				"foreground": "#F2A23A"
