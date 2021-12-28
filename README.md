@@ -1,4 +1,5 @@
 # Modern Monokai
+[![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue?style=for-the-badge)](https://vscode.dev/theme/OliverCederborg.modern-monokai)
 
 ### Screenshots
 
